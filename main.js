@@ -1,5 +1,4 @@
-function rollDice() {
-    let diceValue = Math.floor(Math.random() * 6) + 1; // Random number between 1 and 6
+function showDiceRoll(diceValue) {
     const dots = document.querySelectorAll(".dot");
 
     // Hide all dots
