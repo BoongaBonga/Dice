@@ -1,18 +1,21 @@
-#Dice{
+#Dice {
     border: solid 2px;
     width: 10vh;
     height: 10vh;
-    position: absolute;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
     align-items: center;
-    justify-content: space-evenly;
+    justify-items: center;
     border-radius: 10%;
+    padding: 2vh;
+    position: relative;
 }
 
-.dot{
-    border: solid;
+.dot {
     border-radius: 50%;
     background-color: black;
-    height: 1vh;
-    width:  1vh;
+    height: 2vh;
+    width: 2vh;
+    display: none; /* Hide all dots by default */
 }
