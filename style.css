@@ -1,4 +1,6 @@
 #Dice {
+    box-shadow: 0 0 1.5vh black inset;
+    background: linear-gradient(228deg, #ffff7f 0%, #ffffff 60%, white 70%, #ffff7f 100%);
     border: solid 2px;
     width: 10vh;
     height: 10vh;
